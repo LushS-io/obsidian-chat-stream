@@ -4,6 +4,10 @@ import { openai } from './chatGPT-types'
 export const OPENAI_COMPLETIONS_URL = `https://api.openai.com/v1/chat/completions`
 
 export const CHAT_MODELS = {
+	GPT_4o: {
+		name: 'gpt-4o',
+		tokenLimit: 128000
+	},
 	GPT_35_TURBO: {
 		name: 'gpt-3.5-turbo',
 		tokenLimit: 4096
